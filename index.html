@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio</title>
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- icons -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- for on scroll animations -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css">
+    <script src="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js"></script>
+
+    <body>
+
+        <a name="home"></a>
+        <div class="wrapper">
+
+            <!--------------- hero section starts here --------------->
+
+            <!-- <div class="video-container">
+                <video playsinline autoplay muted loop id="bgvid">
+                        <source src="videobg.mp4" type="video/mp4">
+                  </video>
+                <img src="developer3.jpg">
+            </div> -->
+
+            <div class="video-container">
+                <img src="developer3.jpg" alt="">
+            </div>
+
+            <div class="header">
+                <h1> I am a Full Stack Developer...!! </h1>
+                <a href="nahid_hasan.pdf" download class="btn btn-outline-warning"> Download Resume</a>
+            </div>
+
+            <!-- <div>
+                <a href="resume.pdf" download> Download Resume</a>
+            </div> -->
+
+            <!--------------- hero section ends here --------------->
+
+            <!--------------- navbar starts here --------------->
+
+            <nav class="nav">
+                <span style="font-style:italic" id="brand">
+                        <a href="index.html">Portfolio</a>
+                  </span>
+
+                <ul id="menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#programming">programming</a></li>
+                    <li><a href="#footer">Contacts</a></li>
+                </ul>
+
+                <div id="toggle">
+                    <div class="span">menu</div>
+                </div>
+
+            </nav>
+
+            <div id="resize">
+                <div class="close-btn">close</div>
+
+                <ul id="menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#programming">programming</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#footer">Contacts</a></li>
+                </ul>
+            </div>
+
+            <!--------------- navbar ends here --------------->
+
+            <div class="content">
+
+                <!--------------- about section starts here --------------->
+
+                <a name="about"></a>
+
+                <section class="story">
+
+
+                    <div class="container-fluid">
+
+                        <div class="section-data">
+
+                            <div class="row">
+                                <div class="col-md-4" data-wow-delay="0.3s">
+                                    <img id="nahidimg" src="nahid.jpg" alt="">
+                                </div>
+                                <div class="col-md-6 section-subheading wow fadeInUp" data-wow-delay="0.5s">
+                                    <span><h2><b style="color: black; font-size: 50px;">Nahid Hasan </b></h2></span>
+                                    <h4>Today people are faces lots of problems. I want to solve their problems. I already solved some problems that people daily faces. <br> I solved it using web application. I developed it using Node.js and AngularJs. I
+                                        also love programming. I already solved more than 500 problems in different online judge.</h4>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <!--------------- about section ends here --------------->
+
+                <!--------------- programming section starts here --------------->
+
+                <a name="programming"></a>
+
+                <section class="programming">
+
+                    <div class="container-fluid">
+
+                        <div class="section-data">
+
+                            <div class="row">
+                                <div class="col-md-2 section-index wow fadeInUp" style="color: white; margin-left: 20px;" data-wow-delay="0.3s">Programming</div>
+                                <div class="col-md-8 section-heading wow fadeInUp" data-wow-delay="0.4s"></div>
+                            </div>
+                            <hr>
+
+                            <div class="row service">
+                                <div id="uva" class="col-md-4 wow fadeInUp" data-wow-delay="0.5s">
+                                    <h4><b>UVA Online judge: </b></h4>
+                                    <ul id="solveproblems">
+                                        <li><b>solved 170+ problems</b></li>
+                                        <li><b>User Name: </b> <a target="blank" href="https://uhunt.onlinejudge.org/id/868480" style="font-size: 30px;"> nahid597</a></li>
+                                    </ul>
+                                </div>
+                                <div id="uva" class="col-md-4 wow fadeInUp" data-wow-delay="0.6s">
+                                    <h4><b>CodeForces: </b></h4>
+                                    <ul id="solveproblems">
+                                        <li><b>solved 250+ problems</b></li>
+                                        <li><b>Rating: 1471 (max)</b></li>
+                                        <li><b>User Name: </b> <a target="blank" href="http://codeforces.com/profile/nahidh597" style="font-size: 30px;"> nahidh597</a></li>
+                                    </ul>
+                                </div>
+
+                                <div id="uva" class="col-md-4 wow fadeInUp" data-wow-delay="0.7s">
+                                    <h4><b>AtCoder: </b></h4>
+                                    <ul id="solveproblems">
+                                        <li><b>solved 100+ problems</b></li>
+                                        <li><b>User Name: </b> <a target="blank" href="https://atcoder.jp/users/nahid597" style="font-size: 30px;"> nahid597</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <!--------------- programming section ends here --------------->
+
+                <!--------------- projects section starts here --------------->
+
+                <a name="projects"></a>
+
+                <section class="projects">
+
+                    <div class="container-fluid">
+
+                        <div class="row">
+                            <div class="col-md-2 section-index wow fadeInUp" style="color: black; margin-left: 20px;" data-wow-delay="0.3s">Projects</div>
+                            <div class="col-md-8 section-heading wow fadeInUp" data-wow-delay="0.4s"></div>
+                        </div>
+                        <hr>
+
+                        <div class="row">
+
+                            <div class="col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="card" style="width: 75%;">
+                                    <img class="card-img-top" src="worker2.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h3 class="card-title" style="color: black; text-align: center; "><b>FindWorker</b></h3>
+                                        <p class="card-text" style="color: black; font-size: 10px;">
+                                            Find workers at any position in online. If some things are ruined in home, office or any place this application help to find nearest suitable worker for you.
+                                        </p>
+                                        <p class="card-text" style="color: black;">
+                                            <h3><b style="color: black;">Technologies: </b></h3>
+                                            <p style="color: black; font-size: 10px;">
+                                                <b>
+                                                      Node.js, MongoDB, Express.js, Angular.js, Mapbox, MongoDB Atlas, jwt.
+                                                </b>
+                                            </p>
+                                        </p>
+                                        <p class="card-text" style="color: black;">
+                                            <h3><b style="color: black;">Source: </b></h3>
+                                            <p style="color: black; font-size: 13px;">
+                                                <b><a href="#">Video</a></b>
+                                            </p>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="card" style="width: 75%;">
+                                    <img class="card-img-top" src="chat.png" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h3 class="card-title" style="color: black; text-align: center; "><b>ChatRoom</b></h3>
+                                        <p class="card-text" style="color: black; font-size: 10px;">
+                                            Real time chat application. Two or multiple user chat at a time in this application under a room.
+                                        </p>
+                                        <p class="card-text" style="color: black;">
+                                            <h3><b style="color: black;">Technologies: </b></h3>
+                                            <p style="color: black; font-size: 10px;">
+                                                <b>
+                                                      Node.js, Express.js, MongoDB, JavaScript, HTML5, CSS3, mLab, passport.js.
+
+                                                </b>
+                                            </p>
+                                        </p>
+                                        <p class="card-text" style="color: black;">
+                                            <h3><b style="color: black;">Source: </b></h3>
+                                            <p style="color: black; font-size: 13px;">
+                                                <b><a target="blank" href="https://github.com/nahid597/chatRoom"> github </a></b>
+                                                <b><a href="#">Video</a></b>
+                                            </p>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row" style="margin-top: 10px;">
+
+                            <div class="col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="card" style="width: 75%;">
+                                    <img class="card-img-top" src="blog.png" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h3 class="card-title" style="color: black; text-align: center; "><b>Blog</b></h3>
+                                        <p class="card-text" style="color: black; font-size: 10px;">
+                                            User can easily post their problems and easily see others problems. It is open discussion platform.
+                                        </p>
+                                        <p class="card-text" style="color: black;">
+                                            <h3><b style="color: black;">Technologies: </b></h3>
+                                            <p style="color: black; font-size: 10px;">
+                                                <b>
+                                                        Node.js, MongoDB, Express.js, Angular.js, MongoDB Atlas, jwt.
+                                                  </b>
+                                            </p>
+                                        </p>
+                                        <p class="card-text" style="color: black;">
+                                            <h3><b style="color: black;">Source: </b></h3>
+                                            <p style="color: black; font-size: 13px;">
+                                                <b><a target="blank" href="https://github.com/nahid597/Blog">github </a></b>
+                                                <b><a href="#">Video</a></b>
+                                            </p>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="card" style="width: 75%;">
+                                    <img class="card-img-top" src="ecommerce.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h3 class="card-title" style="color: black; text-align: center; "><b>CoralBusiness</b></h3>
+                                        <p class="card-text" style="color: black; font-size: 10px;">
+                                            CoralBusiness is a simple e-commerce web application. This application cell only differnt types of corals. If people want to buy coral then he or she can use this application.
+                                        </p>
+                                        <p class="card-text" style="color: black;">
+                                            <h3><b style="color: black;">Technologies: </b></h3>
+                                            <p style="color: black; font-size: 10px;">
+                                                <b>
+                                                       PHP, Laravel, SQL Server, MySql, HTML5, CSS3
+  
+                                                  </b>
+                                            </p>
+                                        </p>
+                                        <p class="card-text" style="color: black;">
+                                            <h3><b style="color: black;">Source: </b></h3>
+                                            <p style="color: black; font-size: 13px;">
+                                                <b><a target="blank" href="https://github.com/nahid597/coralBusiness"> github </a></b>
+                                                <b><a href="#">Video</a></b>
+                                            </p>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <!--------------- projects section ends here --------------->
+
+                <!--------------- footer starts here --------------->
+
+                <a name="footer"></a>
+                <div class="footer">
+
+                    <div class="container">
+
+                        <div class="info">
+
+                            <div class="row">
+                                <div class="col-md-2 wow fadeInUp" data-wow-delay="0.3s" id="address">
+                                    <h2><b style="color: white;">Address:</b></h2>
+                                    <b><h4>Shahzadpur</h4></b>
+                                    <b><h4>Sirajgong</h4></b>
+                                    <b><h4>Bangladesh</h4></b>
+
+                                    <br><br>
+                                </div>
+
+                                <div class="col-md-6 wow fadeInUp" data-wow-delay="0.4s" id="media">
+                                    <ul style="font-size: 20px;">
+                                        <a target="blank" href="https://www.facebook.com/md.nahidhasan.739">
+                                            <li>
+                                                <ion-icon style="font-size: 40px;" name="logo-facebook"></ion-icon>
+                                            </li>
+                                        </a>
+
+                                        <a target="blank" href="https://www.linkedin.com/in/nahid-hasan-548170130/">
+                                            <li>
+                                                <ion-icon style="font-size: 40px;" name="logo-linkedin"></ion-icon>
+                                            </li>
+                                        </a>
+
+                                        <a target="blank" href="https://github.com/nahid597">
+                                            <li>
+                                                <ion-icon style="font-size: 40px;" name="logo-github"></ion-icon>
+                                            </li>
+                                        </a>
+
+                                    </ul>
+
+                                    <br><br>
+                                </div>
+
+                                <div class="col-md-4 wow fadeInUp" data-wow-delay="0.5s" id="mail">
+                                    <b> <h3 style="color: white;">Contact Me: </h3></b>
+                                    <b><h4 style="color: white;">Mail: nahidh597@gmail.com</h4></b>
+                                    <b><h4 style="color: white;">Phone: +8801783272160</h4></b>
+
+
+                                    <!-- <div class="row">
+                                                <div class="col-md-2">
+                                                      <ion-icon ios="ios-mail" md="md-mail" style="color: white; margin-top: 5px;"></ion-icon>
+                                                </div>
+                                                <div style="color: white ; float: left; margin-bottom: 80px; font-size: 20px;" class="col-md-8">
+                                                    nahid hasdan
+                                                </div>
+                                                
+                                          </div> -->
+
+
+                                    <br><br>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!--------------- footer ends here --------------->
+
+            </div>
+
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script>
+            // navigation starts here
+            $("#toggle").click(function() {
+                $(this).toggleClass('on');
+                $("#resize").toggleClass("active");
+            });
+            $("#resize ul li a").click(function() {
+                $(this).toggleClass('on');
+                $("#resize").toggleClass("active");
+            });
+            $(".close-btn").click(function() {
+                $(this).toggleClass('on');
+                $("#resize").toggleClass("active");
+            });
+
+            $(function() {
+                $(document).scroll(function() {
+                    var $nav = $(".nav");
+                    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+                });
+            });
+
+            new WOW().init();
+
+            // Select all links with hashes
+            $('a[href*="#"]')
+                // Remove links that don't actually link to anything
+                .not('[href="#"]')
+                .not('[href="#0"]')
+                .click(function(event) {
+                    // On-page links
+                    if (
+                        location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') &&
+                        location.hostname == this.hostname
+                    ) {
+                        // Figure out element to scroll to
+                        var target = $(this.hash);
+                        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                        // Does a scroll target exist?
+                        if (target.length) {
+                            // Only prevent default if animation is actually gonna happen
+                            event.preventDefault();
+                            $('html, body').animate({
+                                scrollTop: target.offset().top
+                            }, 1000, function() {
+                                // Callback after animation
+                                // Must change focus!
+                                var $target = $(target);
+                                $target.focus();
+                                if ($target.is(":focus")) { // Checking if the target was focused
+                                    return false;
+                                } else {
+                                    $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
+                                    $target.focus(); // Set focus again
+                                };
+                            });
+                        }
+                    }
+                });
+        </script>
+    </body>
+
+</html>

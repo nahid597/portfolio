@@ -317,6 +317,13 @@ button {
 }
 
 
+/* skill section start */
+
+.skill {
+    background-color: black;
+}
+
+
 /*--------------- our projects section starts  --------------- */
 
 .projects-member,
@@ -475,7 +482,7 @@ textarea:focus {
 /*--------------- footer section starts here --------------- */
 
 .footer {
-    background: black;
+    background: #fff;
 }
 
 #media,
@@ -496,17 +503,17 @@ h4 {
 
 .footer h4 {
     font-weight: lighter;
-    color: white;
+    color: black;
 }
 
 .footer p {
-    color: grey;
+    color: black;
     font-weight: lighter;
 }
 
 .footer li {
     font-weight: lighter;
-    color: #fff;
+    color: black;
     padding-left: 20px;
     font-size: 18px !important;
 }
@@ -545,8 +552,8 @@ a:hover {
 
 #nahidimg {
     overflow: hidden;
-    height: 80%;
-    width: 80%;
+    height: 212px;
+    width: 212px;
     border-radius: 50%;
 }
 
@@ -566,6 +573,7 @@ a:hover {
 
 .card {
     margin-left: 40px;
+    overflow: hidden;
 }
 
 .card-img-top {
